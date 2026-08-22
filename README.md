@@ -4,9 +4,7 @@ A modern, responsive and dynamic news portal built with React and Vite.
 
 The website automatically fetches the latest news data from Google Sheets, which is continuously updated through an n8n automation workflow.
 
-## 🚀 Live Website
 
-Coming soon...
 
 ## ✨ Features
 
