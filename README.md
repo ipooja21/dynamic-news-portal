@@ -1,16 +1,53 @@
-# React + Vite
+# 📰 NewsHub - Dynamic News Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive and dynamic news portal built with React and Vite.
 
-Currently, two official plugins are available:
+The website automatically fetches the latest news data from Google Sheets, which is continuously updated through an n8n automation workflow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Website
 
-## React Compiler
+Coming soon...
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 📰 Dynamic news articles
+- 🔄 Automated news updates using n8n
+- 📊 Google Sheets as a data source
+- 🔎 Real-time article search
+- 🏷️ Category-based filtering
+- 🌙 Dark / Light mode
+- 📱 Fully responsive design
+- ⭐ Featured news section
+- 🔥 Breaking news ticker
+- 📈 Trending news sidebar
+- 📖 Load More pagination
+- 🖼️ Responsive article images
+- 🔗 Direct links to original articles
+- ⚡ Fast Vite-powered frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+- CSS
+
+### Automation & Data
+- n8n
+- Google Sheets
+- Google Visualization API
+- CSV API
+
+## 🔄 Architecture
+
+```text
+News Source
+     ↓
+    n8n
+     ↓
+Google Sheets
+     ↓
+React + Vite
+     ↓
+NewsHub Website
